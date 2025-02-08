@@ -1,7 +1,7 @@
 import React from 'react'
 import { Input } from "@/components/ui/input"
 import { Checkbox } from "@/components/ui/checkbox"
-import img from "../../../public/assests/or.png"
+// import img from "../../../public/assests/or.png"
 import Image from 'next/image';
 
 
@@ -29,7 +29,7 @@ const Contact = () => {
                   bg-primary text-base font-normal'/>
                </div>
                   <h1 className='text-[#333333] text-base font-normal border-b-2 border-primary max-w-[424px]' >Forget password?</h1>
-               <Image src={img} alt={'Orimg'} width={360} height={32} />
+               {/* <Image src={img} alt={'Orimg'} width={360} height={32} /> */}
                <div className=' max-w-[624px] text-[#333333] text-base font-normal space-y-8 mx-auto'>
               <Input placeholder=' Billing Address' type="text" className=' text-primary text-base font-normal'/>
             <Input placeholder=' Zip Code' type="text" className=' text-primary text-base font-normal'/>
